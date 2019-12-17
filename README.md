@@ -1,8 +1,12 @@
 # Translator + Weather extension 
 
+
 Project name: Translator + Weather extension for Chrome
+
 Made by: Andrea Mendoza
+
 For course: LMSC-261
+
 Files included: background.js, content.js, manifest.json, options.html, options.js, small-translateicon.png, styles.css
 
 This is a chrome extension made with JavaScript that allows the user to choose a source and target language in the options page and translate any word in 8 differet languages: English, Spanish, French, German, Greek, Filipino, Finnish and Swedish The last translated word by the user will be saved in the options page as "Most Recent Translation". In addition to that, the user can also get the current weather of any city by typing it in the optiong page, this will be shown in the same popup window that appears every time the user translates a word.
