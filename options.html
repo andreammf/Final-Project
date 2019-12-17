@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Translator Options</title>
+</head>
+<body>
+
+<div id="content">
+
+    <h1>Translator Options</h1>
+
+    <br> 
+
+    Source Language:
+    <select id="source">
+     <option value="en">EN</option>
+     <option value="es">ES</option>
+     <option value="fr">FR</option>
+     <option value="de">DE</option>
+     <option value="el">EL</option>
+     <option value="fil">FIL</option>
+     <option value="fi">FI</option>
+     <option value="sv">SV</option>
+    </select>
+    
+    <br>
+    
+    Target Language:
+    <select id="target">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+        <option value="el">EL</option>
+        <option value="fil">FIL</option>
+        <option value="fi">FI</option>
+        <option value="sv">SV</option>
+    </select>
+    
+    <br> 
+
+    Weather Location (City Name): 
+    <input id="location" type="text"/>
+
+    <br>
+    
+    <div id="status"></div>
+
+    <button id="save">Save</button>
+
+    <br><br><br><br>
+
+    <h1>Most Recent Translation</h1>
+    <p id="lastTranslation"></p>
+
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
